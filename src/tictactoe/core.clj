@@ -9,7 +9,7 @@
 (def coll-name "games")
 
 (defn connect-to-db []
-  (:db (mg/connect-via-uri (str "mongodb+srv://hima5:Open1997!@cluster0.wfbzmtq.mongodb.net/tictoegame?retryWrites=true&w=majority" db-name))))
+  (:db (mg/connect-via-uri (str "mongodb-url" db-name))))
 
 
 ;; Game logic
