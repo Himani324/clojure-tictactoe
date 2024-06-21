@@ -20,8 +20,8 @@ Before you begin, ensure you have met the following requirements:
 
 To install Tic-Tac-Toe with MongoDB, follow these steps:
 
-1. Clone the repository: git clone https://github.com/Himani324/clojuretictactoe
-2. Navigate to the project directory: cd clojuretictactoe
+1. Clone the repository: git clone https://github.com/Himani324/clojure-tictactoe
+2. Navigate to the project directory: cd clojure-tictactoe
 3. Configuring MongoDB
 
 By default, the game tries to connect to a MongoDB instance running on localhost:27017. If your MongoDB is running on a different host or port, you'll need to modify the connection details in `src/tic_tac_toe/core.clj`:
